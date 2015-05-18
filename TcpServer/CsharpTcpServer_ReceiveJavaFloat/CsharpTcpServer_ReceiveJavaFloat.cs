@@ -29,7 +29,7 @@ namespace CsharpTcpServer_ReceiveJavaFloat {
                     // 通过字节缓冲类，将字节数组转换为float
                     string receiveString = buf.ReadFloat( ).ToString( );
                     Console.WriteLine(string.Format("接受的Float数据 = {0}", receiveString));
-
+                  
                     buf.ResetReaderIndex( );
                     client.Close( );
                 }
