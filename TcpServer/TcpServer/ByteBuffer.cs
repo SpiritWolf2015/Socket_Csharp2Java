@@ -5,6 +5,8 @@ namespace TcpServer
 {
     using System.IO;
 
+    //李总群共享，夜莺QQ513994699
+
     public class ByteBuffer : ICloneable, IByteBuffer
     {
 

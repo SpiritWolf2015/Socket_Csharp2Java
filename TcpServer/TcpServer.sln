@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2013
 VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TcpServer", "TcpServer\TcpServer.csproj", "{19C25B0A-C3FA-4121-B67B-4920C23DD13C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpTcpServer_ReceiveJavaString", "TcpServer\CsharpTcpServer_ReceiveJavaString.csproj", "{19C25B0A-C3FA-4121-B67B-4920C23DD13C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CsharpTcpServer_ReceiveJavaFloat", "CsharpTcpServer_ReceiveJavaFloat\CsharpTcpServer_ReceiveJavaFloat.csproj", "{DCD1E3FB-77F7-4963-901B-9B0EAA6D6B4C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{19C25B0A-C3FA-4121-B67B-4920C23DD13C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{19C25B0A-C3FA-4121-B67B-4920C23DD13C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{19C25B0A-C3FA-4121-B67B-4920C23DD13C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DCD1E3FB-77F7-4963-901B-9B0EAA6D6B4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DCD1E3FB-77F7-4963-901B-9B0EAA6D6B4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DCD1E3FB-77F7-4963-901B-9B0EAA6D6B4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DCD1E3FB-77F7-4963-901B-9B0EAA6D6B4C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
